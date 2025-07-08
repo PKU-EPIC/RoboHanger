@@ -195,7 +195,7 @@
             We pre-detect three keypoints of the hanger at the beginning of the policy. 
             (b) The action primitive press-and-lift inserts the left endpoint of the hanger into the target garment. 
             (c) The action primitive drag-and-rotate inserts the right endpoint of the hanger into the target garment. 
-            In (b) and (c), four U-Nets \((Q_press, Q_lift, Q_drag , Q_rotate)\) all take the depth map and masks as input 
+            In (b) and (c), four U-Nets \((Q_{press}, Q_{lift}, Q_{drag} , Q_{rotate})\) all take the depth map and masks as input 
             and output 2D value maps indicating the subtask success rate of applying actions at each pixel. We apply argmax to obtain a final single point.
           </p>
         </div>
